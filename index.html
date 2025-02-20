@@ -3,49 +3,147 @@
     <head>
         <title>PokeRadar</title>
         <link rel="icon" type="icon" href="./images/Register_Poké_Radar_Sprite.png"/>
+        <link rel="stylesheet" href="./css/typography.css"/>
         <link rel="stylesheet" href="./css/homepage.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="topnav">
-            <div class="title-webpage">
+            <div class="logo-webpage">
                 <a class="logo" href="./index.html"> 
                     <img src="./images/Register_Poké_Radar_Sprite.png" alt="Official logo"> 
                 </a>
-                <a href="./Homepage">PokeRadar</a>
+                <a class="title" href="./index.html">PokeRadar</a>
             </div>
-            <div class="navigation">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
+                <ul class="navigation">
+                    <li><a class="active" href="./index.html">Home</a></li>
                     <li><a href="./pages/pokemon list.html">Pokemon List</a></li>
                     <li><a href="./pages/contact.html">Contact</a></li>
                 </ul>
-            </div>
         </div>
 
         <div class="section-header">
             <div class="intro-header">
-                <h1>Discover the World of Pokémon</h1>
+                <h1>Discover the World of Pokemon</h1>
                 <h4>Your comprehensive guide to all Pokemon species, their abilities, stats, and evolution chains. Start your journey to become a Pokemon master today!</h4>
-                <div class="explore-button">
-                    <p>Explore Pokémon</p>
-                </div>
+                <a class="button" href="./pages/pokemon list.html">
+                    Explore Pokemon    
+                </a>
             </div>
-            <div class="front-image">
-                <img src="./images/Paldea-Region-Pokemon-Scarlet-Violet.jpg"/>
-            </div>
+            <img src="./images/Paldea-Region-Pokemon-Scarlet-Violet.jpg"/>
         </div>
 
         <div class="section-features">
-            
+            <div>
+                <p>Features</p>
+                <h2>Everything you need to know about Pokemon</h2>
+                <h4>Access comprehensive information about all Pokemon species, their abilities and more</h4>
+            </div>
+            <div class="features-container">
+                <div class="feature">
+                    <div>
+                        <img src="./images/database icon.svg"/>
+                    </div>
+                    <div>
+                        <h3>Complete Database</h3>
+                        <p>Acces detailed information about all Pokemon from every generation</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div>
+                        <img src="./images/magnifying glass icon.svg"/>
+                    </div>
+                    <div>
+                        <h3>Advanced Search</h3>
+                        <p>Find Pokemon by name, type, ability or any other characteristics</p>
+                    </div>
+                </div>
+                <div class="feature">
+                <div>
+                    <img src="./images/detailed stats icon.svg"/>
+                </div>
+                <div>
+                    <h3>Detailed Stats</h3>
+                    <p> View comprehensive statistics and analysis for each Pokemon</p>
+                </div>
+                </div>
+            </div>
         </div>
 
         <div class="section-pokemons">
+            <div class="title-feature">
+                <p>Featured Pokemon</p>
+                <h2>Popular Pokemon</h2>
+            </div>
+            <div class="featured-pokemon">
+                <div class="pokemon">
+                    <img src="./images/pikachu.png" alt="Pikachu">
+                    <div>
+                        <h3>Pikachu</h3>
+                        <p>electric Type</p>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <img src="./images/charizard.png" alt="Charizard">
+                    <div>
+                        <h3>Charizard</h3>
+                        <p>Fire/Flying Type</p>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <img src="./images/venasaur.png" alt="Venusaur">
+                    <div>
+                        <h3>Venusaur</h3>
+                        <p>Grass/Poison Type</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="section-bottom">
+            <div class="outro-header">
+                <p>Get Started</p>
+                <h2>Ready to start your Pokemon Journey?</h2>
+                <h4>Join thousands of trainers using Pokeradar top enhance their Pokemon knowledge!</h4>
+                <a class="button" href="./pages/pokemon list.html">
+                    Start exploring    
+                </a>
+            </div>
         </div>
 
         <div class="footer">
-
+            <div id="bottom">
+                <div class="information">
+                    <img class="bottom-logo" src="./images/Register_Poké_Radar_Sprite.png"/>
+                    <p>Your comprehensive guide tot the world of Pokemon.</p>
+                    <ul class="social-media">
+                        <li><img src="./images/Facebook logo.svg"/></li>
+                        <li><img src="./images/Twitter icon.svg"/></li>
+                        <li><img src="./images/Insta icon.svg"/></li>
+                        <li><img src="./images/github icon.svg"/></li>
+                    </ul>
+                </div>
+                <div class="quick-search">
+                    <ul class="resources">
+                        <li class="title-search">Resources</li>
+                        <li>Pokemon Database</li>
+                        <li>Type Chart</li>
+                        <li>Move List</li>
+                    </ul>
+                    <ul class="support">
+                        <li class="title-search">Support</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 PokeRadar. All rights reserved.</p>
+            </div>
         </div>
     </body>
 </html>

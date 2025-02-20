@@ -1,2 +1,275 @@
+body {
+    margin: 0px;
+}
+
+.topnav {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#d7d7d7 ;
+    margin: 0px
+}
+
+.topnav img{
+    height: 32px;
+    width: 32px;
+    margin-left: 32px;
+}
+
+.logo-webpage {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.navigation li:hover{
+        border-bottom: 2px solid #E86060;
+}
+
+.navigation li .active{
+    color:#000 ;
+}
+
+.section-header{
+    display: flex;
+    text-align: left;
+}
+
+.intro-header h1{
+    height: 120px;
+    width: 608px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.intro-header h4{
+    margin: 0px 250px 32px 32px;
+}
+
+.section-header img{
+    height: 720px;
+    width: 930px;
+    margin-left: 48px;
+    justify-content: right;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #E86060;
+    border-radius: 6px;
+    padding: 17px 41px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+
+
+.section-features {
+    width: 100%;
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.section-features p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.features-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 32px ;
+    margin-top: 50px;   
+}
+
+.feature p{
+    font-weight: 400;
+    color:#6B7280;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.feature img{
+    background-size: 48px 48px;
+   background-color: #E86060;
+   border-radius: 6px;
+   padding: 14px 14px;
+}
+
+.feature h3{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.section-pokemons{
+    text-align: center;
+    margin: 80px 0px;
+    background-color: #F9FAFB;
+}
+
+.title-feature p{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 50px 0px 20px;
+}
+
+.title-feature h2{
+    margin-bottom: 50px;
+}
+
+
+.featured-pokemon{
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon{
+    text-align: left;
+    padding: 0px 32px;
+    margin: 40px 32px;
+    background-color: #FFFFFF;
+
+}
+
+.pokemon p{
+    font-weight: 400;
+    color: #6B7280;
+}
+
+.section-bottom{
+    text-align: center;
+    margin: 48px 0px;
+}
+
+.outro-header{
+    height: 322px;
+}
+.outro-header p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.outro-header h2{
+    padding-bottom: 20px;
+}
+
+.outro-header h4{
+    color: #6B7280;
+    padding-bottom: 60px;
+    margin: 0px 450px;
+}
+
+.footer{
+    background-color:#1F2937;
+    color: #FFFFFF;
+}
+
+#bottom{
+    display: flex;
+}
+
+.bottom-logo{
+    height: 100px;
+    width: 100px;
+    margin: 48px 32px 30px;
+}
+
+.information{
+   width: 500px;
+}
+
+.information p{
+    color:#9CA3AF;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+    margin: 20px 100px 20px 10px;
+}
+
+.social-media img{
+    height: 15px;
+}
+
+.social-media li{
+    list-style-type: none;
+}
+
+.quick-search{
+    color: #D1D5DB;
+    width: 500px;
+    display: inline-flex;
+    gap: 40px;
+    margin-top: 48px;
+    padding: 0px 300px;
+}
+
+.resources{
+    margin-bottom: 15px;
+    line-height: 36px;
+    list-style: none;;
+}
+
+.support{
+    list-style-type: none;
+    line-height: 36px;
+}
+
+.copyright{
+    color:#9CA3AF;
+    text-align: center;
+    padding: 80px 0px 48px;
+    border-top:#374151 solid 1px;
+}
+
+.title-search{
+    color: #9CA3AF;
+}
+
+
 
 
