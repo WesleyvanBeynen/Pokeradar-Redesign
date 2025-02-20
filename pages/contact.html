@@ -3,14 +3,127 @@
 <html>
     <head>
         <title>PokeRadar</title>
-        <link rel="icon" href="./images/Poké_Ball_icon.svg.png"/>
-        <link rel="stylesheet" href="./Style contact"/>
+        <link rel="icon" href="./../images/Register_Poké_Radar_Sprite.png"/>
+        <link rel="stylesheet" href="./../css/typography.css"/>
+        <link rel="stylesheet" href="./../css/contact.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
+    <body>
+        <div class="topnav">
+            <div class="logo-webpage">
+                <a class="logo" href="./../index.html"> 
+                    <img src="./../images/Register_Poké_Radar_Sprite.png" alt="Official logo"> 
+                </a>
+                <a class="title" href="./../index.html">PokeRadar</a>
+            </div>
+                <ul class="navigation">
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./pokemon list.html">Pokemon List</a></li>
+                    <li><a class="active" href="./contact.html">Contact</a></li>
+                </ul>
+        </div>
 
+        <div class="section-header">
+            <div class="intro-header">
+                <h1>Contact Pokeradar</h1>
+                <h4>Get in touch with us for any questions, feedback, or support related to PokeRadar. We're here to help you on your Pokemon journey!</h4>
+            </div>
+            <img src="./../images/Paldea-Region-Pokemon-Scarlet-Violet.jpg"/>
+        </div>
 
+        <div class="contact">
+            <div class="features-container">
+                <div class="feature">
+                    <div>
+                        <img src="./../images/Phone icon.svg"/>
+                    </div>
+                    <div>
+                        <h3>Call us</h3>
+                        <p>+1 (555) 123-4567<br>Available Mon-Fri, 9am-5pm EST</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div>
+                        <img src="./../images/Mail Icon.svg"/>
+                    </div>
+                    <div>
+                        <h3>Email us</h3>
+                        <p>Support@pokeradar.com<br>For general inquiries and support</p>
+                    </div>
+                </div>
+                <div class="feature">
+                <div>
+                    <img src="./../images/Location icon.svg"/>
+                </div>
+                <div>
+                    <h3>Visit us</h3>
+                    <p>123 Pokemon Street<br>Pallet Town, KT 12345<br>United States</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="forum">
+            <div class="name">
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                </form>
+            </div>
+            <div class="email">
+                <form>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email">
+                </form>
+            </div>
+            <div class="radio-button">
+                <p>Subscribe for updates?</p>
+                <form>
+                    <input type="radio" id="yes" name="fav_language" value="yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="fav_language" value="no">
+                    <label for="no">No</label>
+                </form>
+            </div>
+            <div class="textarea">
+                <p>Message</p>
+                <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+            <a class="button">Send Message</a>    
+        </div>
 
-
-
+        <div class="footer">
+            <div id="bottom">
+                <div class="information">
+                    <img class="bottom-logo" src="./../images/Register_Poké_Radar_Sprite.png"/>
+                    <p>Your comprehensive guide to the world of Pokemon.</p>
+                    <ul class="social-media">
+                        <li><img src="./../images/Facebook logo.svg"/></li>
+                        <li><img src="./../images/Twitter icon.svg"/></li>
+                        <li><img src="./../images/Insta icon.svg"/></li>
+                        <li><img src="./../images/github icon.svg"/></li>
+                    </ul>
+                </div>
+                <div class="quick-search">
+                    <ul class="resources">
+                        <li class="title-search">Resources</li>
+                        <li>Pokemon Database</li>
+                        <li>Type Chart</li>
+                        <li>Move List</li>
+                    </ul>
+                    <ul class="support">
+                        <li class="title-search">Support</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 PokeRadar. All rights reserved.</p>
+            </div>
+        </div>
+    </body>
 </html>

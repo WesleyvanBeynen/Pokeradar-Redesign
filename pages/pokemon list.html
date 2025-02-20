@@ -2,25 +2,170 @@
 <html>
     <head>
         <title>PokeRadar</title>
-        <link rel="icon" href="./images/Poké_Ball_icon.svg.png"/>
-        <link rel="stylesheet" href="./Style pokemon list"/>
+        <link rel="icon" type="icon" href="./../images/Register_Poké_Radar_Sprite.png"/>
+        <link rel="stylesheet" href="./../css/typography.css"/>
+        <link rel="stylesheet" href="./../css/pokemon-list.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
+    <body>
+        <div class="topnav">
+            <div class="logo-webpage">
+                <a class="logo" href="./../index.html"> 
+                    <img src="./../images/Register_Poké_Radar_Sprite.png" alt="Official logo"> 
+                </a>
+                <a class="title" href="./../index.html">PokeRadar</a>
+            </div>
+                <ul class="navigation">
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a class="active" href="./pokemon list.html">Pokemon List</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+        </div>
+        
+        <div class="section-top">
+            <div>
+                <h1>Pokemon List</h1>
+            </div>
+            <div class="search-bars">
+                <input class="search" type="text" placeholder="Search.."/>
+                <form>
+                    <select id="all-types" name="all-types">
+                    <option value="fire">Fire</option>
+                    <option value="grass">Grass</option>
+                    <option value="water">Water</option>
+                    <option value="bug">Bug</option>
+                    <option value="poison">Poison</option>
+                    <option value="normal">Normal</option>
+                    <option value="flying">Flying</option>
+                    </select>
+                </form>
+                <form>
+                    <select id="all-generations" name="all-generations">
+                    <option value="ag">All generations</option>
+                    <option value="g1">Gen 1</option>
+                    <option value="g2">Gen 2</option>
+                    <option value="g3">Gen 3</option>
+                    </select>
+                </form>
+            </div>
+        </div>
 
+        <div class="pokedex">
+            <div class="pokemon">
+                <a href="./pokemons/bulbasaur.html">
+                <img src="./../images/bulbasaur.png" alt="Bulbasaur"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0001</p>
+                    <h3>Bulbasaur</h3>
+                    <p><span class="type-grass">Grass</span> <span class="type-poison">Poison</span></p>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/charmander.html">
+                <img src="./../images/Charmander.png" alt="Charmander"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0004</p>
+                    <h3>Charmander</h3>
+                    <p><span class="type-fire">Fire</span></p>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/squirtle.html">
+                <img src="./../images/squirtle.png" alt="Squirtle"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0007</p>
+                    <h3>Squirtle</h3>
+                    <p><span class="type-water">Water</span></p>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/caterpie.html">
+                <img src="./../images/Caterpie.png" alt="Caterpie"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0010</p>
+                    <h3>Caterpie</h3>
+                    <p><span class="type-bug">Bug</span></p>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/weedle.html">
+                <img src="./../images/Weedle.png" alt="Weedle"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0013</p>
+                    <h3>Weedle</h3>
+                    <p><span class="type-bug">Bug</span> <span class="type-poison">Poison</span></p>
+                </div>    
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/pidgey.html">
+                <img src="./../images/Pidgey.png" alt="Pidgey"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0016</p>
+                    <h3>Pidgey</h3>
+                    <p><span class="type-normal">Normal</span> <span class="type-flying">Flying</span></p>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="./pokemons/rattata.html">
+                <img src="./../images/Rattata.png" alt="Rattata"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0019</p>
+                    <h3>Rattata</h3>
+                    <p><span class="type-normal">Normal</span></p>
+                </div>
+                </div>
+            <div class="pokemon">
+                <a href="./pokemons/spearow.html">
+                <img src="./../images/Spearow.png" alt="Spearow"/>
+                </a>
+                <div class="pokemon-info">
+                    <p>#0021</p>
+                    <h3>Spearow</h3>
+                    <p><span class="type-normal">Normal</span> <span class="type-flying">Flying</span></p>
+                </div>
+             </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="footer">
+            <div id="bottom">
+                <div class="information">
+                    <img class="bottom-logo" src="./../images/Register_Poké_Radar_Sprite.png"/>
+                    <p>Your comprehensive guide to the world of Pokemon.</p>
+                    <ul class="social-media">
+                        <li><img src="./../images/Facebook logo.svg"/></li>
+                        <li><img src="./../images/Twitter icon.svg"/></li>
+                        <li><img src="./../images/Insta icon.svg"/></li>
+                        <li><img src="./../images/github icon.svg"/></li>
+                    </ul>
+                </div>
+                <div class="quick-search">
+                    <ul class="resources">
+                        <li class="title-search">Resources</li>
+                        <li>Pokemon Database</li>
+                        <li>Type Chart</li>
+                        <li>Move List</li>
+                    </ul>
+                    <ul class="support">
+                        <li class="title-search">Support</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 PokeRadar. All rights reserved.</p>
+            </div>
+        </div>
+    </body>
 </html>

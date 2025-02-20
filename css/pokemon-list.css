@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    background-color:#F9FAFB;
+}
+
+.topnav {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom:#374151 solid 1px;
+    margin: 0px
+}
+
+.topnav img{
+    height: 32px;
+    width: 32px;
+    margin-left: 32px;
+}
+
+.logo-webpage {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.navigation li:hover{
+        border-bottom: 2px solid #E86060;
+}
+
+.navigation li .active{
+    color:#000 ;
+}
+
+.search-bars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    gap: 40px;    
+} 
+
+.search-bars input{
+    padding: 0px 10px;
+}
+
+.section-top h1{
+    margin: 96px 0px 15px 32px;
+}
+
+.section-top input{
+    height: 42px;
+    margin: 0px 5px 32px 32px ;
+    border: solid #D1D5DB 1px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.search{
+    width: 70%;
+}
+
+.pokedex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#F9FAFB;
+    margin: 32px 32px 126px 32px;
+}
+
+.pokemon{
+    margin: 20px 15px;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+}
+
+.pokemon img{
+    height: 300px;
+}
+
+.pokemon-info{
+    height: 142px;
+    width: 150px;
+    line-height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pokemon-info p{
+    word-spacing: 5px;
+}
+
+
+.type-grass{
+    padding: 4px;
+    background-color:#DCFCE7;
+    border-radius: 4px;
+}
+
+.type-poison{
+    padding: 4px;
+    background-color:#F3E8FF;
+    border-radius: 4px;
+   
+}
+
+.type-fire{
+    padding: 4px;
+    background-color:#FEE2E2;
+    border-radius: 4px;
+}
+
+.type-water{
+    padding: 4px;
+    background-color:#DBEAFE;
+    border-radius: 4px;
+}
+
+.type-bug{
+    padding: 4px;
+    background-color:#D0C860;
+    border-radius: 4px;
+}
+
+.type-normal{
+    padding: 4px;
+    background-color: #D3D3D3; 
+    border-radius: 4px
+}
+
+.type-flying{
+    padding: 4px;
+    background-color:#c8bfd4;
+    border-radius: 4px;
+}
+
+.footer{
+    background-color:#1F2937;
+    color: #FFFFFF;
+}
+
+#bottom{
+    display: flex;
+}
+
+.bottom-logo{
+    height: 100px;
+    width: 100px;
+    margin: 48px 32px 30px;
+}
+
+.information{
+   width: 500px;
+}
+
+.information p{
+    color:#9CA3AF;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+    margin: 20px 100px 20px 10px;
+}
+
+.social-media img{
+    height: 15px;
+}
+
+.social-media li{
+    list-style-type: none;
+}
+
+.quick-search{
+    color: #D1D5DB;
+    width: 500px;
+    display: inline-flex;
+    gap: 40px;
+    margin-top: 48px;
+    padding: 0px 300px;
+}
+
+.resources{
+    margin-bottom: 15px;
+    line-height: 36px;
+    list-style: none;;
+}
+
+.support{
+    list-style-type: none;
+    line-height: 36px;
+}
+
+.copyright{
+    color:#9CA3AF;
+    text-align: center;
+    padding: 40px 0px 48px;
+    border-top:#374151 solid 1px;
+}
+
+.title-search{
+    color: #9CA3AF;
+}
+
+
+
+

@@ -7,7 +7,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color:#d7d7d7 ;
+    border-bottom:#374151 solid 1px;
     margin: 0px
 }
 
@@ -89,8 +89,6 @@ body {
     margin-left: 32px;
 }
 
-
-
 .section-features {
     width: 100%;
     text-align: center;
@@ -129,9 +127,9 @@ body {
 
 .feature img{
     background-size: 48px 48px;
-   background-color: #E86060;
-   border-radius: 6px;
-   padding: 14px 14px;
+    background-color: #E86060;
+    border-radius: 6px;
+    padding: 14px 14px;
 }
 
 .feature h3{
@@ -262,7 +260,7 @@ body {
 .copyright{
     color:#9CA3AF;
     text-align: center;
-    padding: 80px 0px 48px;
+    padding: 40px 0px 48px;
     border-top:#374151 solid 1px;
 }
 
